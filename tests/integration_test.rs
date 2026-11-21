@@ -1,4 +1,4 @@
-use arch_cmake::Component;
+use sigmaos_cmake::Component;
 
 #[test]
 fn test_component_new_aaa() {

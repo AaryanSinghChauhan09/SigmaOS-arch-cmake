@@ -1,4 +1,4 @@
-# SigmaOS-arch-cmake
+# SigmaOS-cmake
 
 GitHub description is a placeholder; component scope remains unclassified.
 

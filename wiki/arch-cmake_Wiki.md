@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-cmake Component Wiki
+# SigmaOS-SigmaOS-cmake Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-cmake provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-cmake provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-cmake Abstraction
-- Fail-Fast on SigmaOS-arch-cmake Initialization Errors
-- Deterministic SigmaOS-arch-cmake Setup
-- Clear Abstraction Over SigmaOS-arch-cmake APIs
-- Composition over Inheritance for SigmaOS-arch-cmake extensions
+- SigmaOS-cmake Abstraction
+- Fail-Fast on SigmaOS-cmake Initialization Errors
+- Deterministic SigmaOS-cmake Setup
+- Clear Abstraction Over SigmaOS-cmake APIs
+- Composition over Inheritance for SigmaOS-cmake extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-cmake follows a SigmaOS-arch-cmake pattern:
-- **SigmaOS-arch-cmake Core**: Provides SigmaOS-arch-cmake support, SigmaOS-arch-cmake management, and SigmaOS-arch-cmake tracking
-- **Management**: Supports SigmaOS-arch-cmake management, SigmaOS-arch-cmake configuration, and SigmaOS-arch-cmake lifecycle
-- **Tracking**: Supports SigmaOS-arch-cmake status, SigmaOS-arch-cmake tracking, and SigmaOS-arch-cmake lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-cmake configurations or unsupported SigmaOS-arch-cmake types
+SigmaOS-SigmaOS-cmake follows a SigmaOS-cmake pattern:
+- **SigmaOS-cmake Core**: Provides SigmaOS-cmake support, SigmaOS-cmake management, and SigmaOS-cmake tracking
+- **Management**: Supports SigmaOS-cmake management, SigmaOS-cmake configuration, and SigmaOS-cmake lifecycle
+- **Tracking**: Supports SigmaOS-cmake status, SigmaOS-cmake tracking, and SigmaOS-cmake lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-cmake configurations or unsupported SigmaOS-cmake types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-cmake by given configuration
--  - Register a SigmaOS-arch-cmake by given name
--  - Get SigmaOS-arch-cmake status and SigmaOS-arch-cmake availability
--  - Track SigmaOS-arch-cmake management and SigmaOS-arch-cmake tracking
-- Error types for SigmaOS-arch-cmake failure scenarios or unsupported SigmaOS-arch-cmake types
+-  - Manage a SigmaOS-cmake by given configuration
+-  - Register a SigmaOS-cmake by given name
+-  - Get SigmaOS-cmake status and SigmaOS-cmake availability
+-  - Track SigmaOS-cmake management and SigmaOS-cmake tracking
+- Error types for SigmaOS-cmake failure scenarios or unsupported SigmaOS-cmake types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-cmake configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-cmake init, SigmaOS-arch-cmake management)
-3. **Assert**: Verify the expected SigmaOS-arch-cmake results
+1. **Arrange**: Set up test environment with specific SigmaOS-cmake configuration
+2. **Act**: Execute the code under test (SigmaOS-cmake init, SigmaOS-cmake management)
+3. **Assert**: Verify the expected SigmaOS-cmake results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-cmake initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-cmake failure scenarios
-- Unit tests provided for SigmaOS-arch-cmake management and configuration
-- Integration tests for full SigmaOS-arch-cmake system with actual SigmaOS-arch-cmake integration
+- SigmaOS-cmake initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-cmake failure scenarios
+- Unit tests provided for SigmaOS-cmake management and configuration
+- Integration tests for full SigmaOS-cmake system with actual SigmaOS-cmake integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-cmake types
-- Expand SigmaOS-arch-cmake capabilities (SigmaOS-arch-cmake features, SigmaOS-arch-cmake configurations, SigmaOS-arch-cmake tracking)
-- Add lifecycle features (SigmaOS-arch-cmake tracking, SigmaOS-arch-cmake lifecycle, SigmaOS-arch-cmake propagation)
-- Create integration tests with actual SigmaOS-arch-cmake systems and SigmaOS-arch-cmake integration
-- Implement SigmaOS-arch-cmake persistence and SigmaOS-arch-cmake state management
+- Add support for additional SigmaOS-cmake types
+- Expand SigmaOS-cmake capabilities (SigmaOS-cmake features, SigmaOS-cmake configurations, SigmaOS-cmake tracking)
+- Add lifecycle features (SigmaOS-cmake tracking, SigmaOS-cmake lifecycle, SigmaOS-cmake propagation)
+- Create integration tests with actual SigmaOS-cmake systems and SigmaOS-cmake integration
+- Implement SigmaOS-cmake persistence and SigmaOS-cmake state management

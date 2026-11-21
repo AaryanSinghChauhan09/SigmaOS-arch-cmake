@@ -1,4 +1,4 @@
-//! SigmaOS-arch-cmake — arch-cmake component
+//! SigmaOS-cmake — cmake component
 //!
 //! Part of the SigmaOS multi-repository component ecosystem. This crate
 //! declares its interface in `COMPONENT.toml` (`provides` / `depends_on`).

@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-cmake"
+name = "SigmaOS-cmake"
 tier = 2
 stability = "scaffold"
 language = "rust"
